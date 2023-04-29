@@ -4,7 +4,7 @@ try:
 except ImportError:
     from ex_5_0 import line_count
 
-import argparseimport argparse
+import argparse
 
 
 def main(infile):
