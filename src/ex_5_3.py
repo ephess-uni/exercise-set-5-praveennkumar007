@@ -2,7 +2,7 @@
 This module contains an entry point that:
 
 - creates a CLi that accepts an input file of data to be processed
-- shifts and scales the data to a mean of 0 and a standard deviation 1
+- shifts and scales the data to a mean of 0 and a standard deviation  1
 - writes the file to the output file argument
 """
 import numpy as np
