@@ -6,6 +6,7 @@ try:
     from src.util import get_repository_root
 except ImportError:
     from util import get_repository_root
+    
 
 # Use these predefined paths.  Note: automated tests expect these paths
 # Changing these paths will cause tests to fail.

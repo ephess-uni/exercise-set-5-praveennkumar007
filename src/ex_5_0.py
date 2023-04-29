@@ -14,6 +14,7 @@ if __name__ == "__main__":
         from src.util import get_repository_root
     except ImportError:
         from util import get_repository_root
+        
 
     # Test line_count with a file from the data directory
     data_directory = get_repository_root() / "data"
