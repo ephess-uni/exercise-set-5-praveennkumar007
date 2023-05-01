@@ -13,7 +13,6 @@ def main(infile):
     line_count(infile)
     
 
-
 if __name__ == "__main__":
     # Create your argument parser object here.
     # Collect the filename argument from the command line
