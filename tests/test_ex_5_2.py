@@ -1,4 +1,5 @@
 from os import path, system
+import os
 import numpy as np
 import pytest
 
@@ -6,6 +7,10 @@ CURDIR = path.dirname(__file__)
 INFILE = path.join(CURDIR, "../data/ex_5_2-data.csv")
 OUTFILE = path.join(CURDIR, "../outputs/ex_5_2-processed.csv")
 MODULE_DIR = path.join(CURDIR, "../src")
+OUTPUT_DIR = path.join(CURDIR, "../outputs")
+
+if not path.exists(OUTPUT_DIR):
+    os.mkdir(OUTPUT_DIR, mode=660)
 
 
 @pytest.fixture
